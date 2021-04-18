@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+}
+h1{
+	font-size: 1.8em;
+	padding: 30px 20px 30px 20px;
+	font-weight: 800;
+	color: #fff;
+}
+div.spacer{
+	padding: 20px 0px 20px 0px;
+}
+#header{
+	background-color: #cc182c;
+	width: 100%;
+	text-align: center;
+}
+.container{
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 16.6em;
+}
+select {
+    font: 1.2em 'Source Sans Pro', sans-serif;
+  	height: 3em;
+    width: 100%;
+    margin: 0;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background: #f3f3f3;
+    color:#666;
+    border:3px solid #999;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    text-indent: 10px;
+}
+.button{
+	width: 100%;
+	font: 1.2em 'Source Sans Pro', sans-serif;
+	height: 3em;
+	font-weight: 600;
+	border: 5px solid #cc182c;
+	color: #cc182c;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.button:hover{
+	border: 5px solid #cc182c;
+	color: #fff;
+	background-color: #cc182c;
+}
+#wb {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+}
+#repeat-label {
+    float: left;
+    padding-left: 8px;
+    line-height: 35px;
+    margin-top: 2px;
+}
+.number{
+	margin-left: 0.2em;
+	margin-bottom: 0.2em;
+	float: left;
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #333;
+	background-color: #f3f3f3;
+	padding: 0.5em;
+	height: 1em;
+	width: 1.8em;
+	text-align: center;
+}
+.title{
+	width: 100%;
+	color: #333;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+	font-weight: 600;
+}
+#result {
+	display: none;
+}
